@@ -13,6 +13,7 @@ function setup() {
   database=firebase.database();
   createCanvas(1000,400);
 
+
   foodObj = new Food();
 
   foodStock=database.ref('Food');

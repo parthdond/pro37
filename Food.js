@@ -7,7 +7,7 @@ class Food {
   
    updateFoodStock(foodStock){
     this.foodStock=foodStock;
-   }
+   } 
   
    getFedTime(lastFed){
      this.lastFed=lastFed;
